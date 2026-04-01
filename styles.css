@@ -19,17 +19,16 @@ body {
     overflow-x: hidden;
 }
 
-/* body::before {
+body::before {
     content: "";
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    background: #f1a548;
-    border-radius: 50%;
+    background: linear-gradient(135deg, #f1a548 0%, #f1a548 60%, #fff 60%, #fff 62%, #f8b957 62%, #f8b957 64%, #fff 64%, #fff 100%);
     z-index: -1;
-} */
+}
 
 .container {
     background: #fff;
